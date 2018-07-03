@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" class="has-topbar has-bottombar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <title>注册页面</title>
+  <link rel="stylesheet" href="../css/register.css" />
+  <link rel="stylesheet" href="../css/iphonex.css" />
+</head>
+<body>
+  <div class="register">
+    <ul class="logos">
+      <li>来花呗</li>
+      <li>来购</li>
+    </ul>
+    <p class="explain">22-45周岁&nbsp; |  &nbsp;手机实名6个月</p>
+    <img class="signImg" src="../images/轻松借千元@2x.png"/>
+    <div id="form" class="form">
+      <div class="block">
+        <img class="img" src="../images/手机号@2x.png" />
+        <input id="phoneNumber" class="input" type="text" placeholder="请输入手机号">
+      </div>
+      <div class="block">
+        <img class="img" src="../images/验证码拷贝@2x.png" />
+        <input id="picCode" class="input" type="text" placeholder="请输入图形验证码">
+        <div id="checkCode" class="btn" onclick="createCode()">图形验证</div>
+      </div>
+      <div class="block">
+        <img class="img" src="../images/验证码拷贝@2x.png" />
+        <input id="numCode" class="input" type="text" placeholder="请输入验证码">
+        <div id="getCodeBtn" class="btn" onclick="getCode()">获取验证码</div>
+      </div>
+      <div class="block">
+        <img class="img" src="../images/密码@2x.png" />
+        <input id="password" class="input" type="password" placeholder="请输入密码（6-16位数字或字母）">
+      </div>
+      <div class="block">
+        <input class="button" type="button" value="立即申请" onclick="signIn()">
+      </div>
+      <div class="block">
+        <a class="a-login" onclick="goDownload()">已有账号点击登录>></a>
+      </div>
+    </div>
+    <div id="success" class="form none">
+      <p class="msg">
+        恭喜您，注册成功<br/>
+        您已获得3000.0元的额度，<br/>
+        赶快下载登录领取吧！
+      </p>
+      <div class="downBtn">Android版下载</div>
+      <div class="downBtn">IOS版下载</div>
+    </div>
+  </div>
+  <div id="message" class="message none">
+  </div>
+  <script src="../js/register.js"></script>
+</body>
+</html>
