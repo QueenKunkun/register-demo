@@ -124,12 +124,14 @@ dl,ol,ul{list-style-type:none}
   border: 0;
   font-size: 1.6rem;
   cursor: pointer;
+  display: block;
 }
-.a-login{
+.block .a-login{
   color: #ffffff;
   display: block;
   margin: 0 auto;
   cursor: pointer;
+  text-align: center;
 }
 .msg{
   color: #ffffff;
