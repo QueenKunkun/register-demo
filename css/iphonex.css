@@ -35,4 +35,10 @@
   .bottom-menu-fixed {
     bottom: 34px;
   }
+  body {
+    background: #5b89ff;
+  }
+  .form{
+    bottom: 6rem;
+  }
 }
