@@ -183,6 +183,9 @@ dl,ol,ul{list-style-type:none}
 	letter-spacing: 3px;
 	font-weight: bolder;
 }
+.inputOnfoucs{
+  bottom: 300px;
+}
 
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
 only screen and (-moz-min-device-pixel-ratio: 1.5),

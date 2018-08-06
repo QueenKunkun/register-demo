@@ -23,24 +23,24 @@
     <div id="form" class="form">
       <div class="block">
         <img class="img" src="../images/手机号@2x.png" />
-        <input id="phoneNumber" class="input" type="text" placeholder="请输入手机号">
+        <input id="phoneNumber" class="input" type="text" placeholder="请输入手机号" onfocus="inputOnfoucs()" onblur="inputOnBlur()">
       </div>
       <div class="block">
         <img class="img" src="../images/验证码拷贝@2x.png" />
-        <input id="picCode" class="input" type="text" placeholder="请输入图形验证码">
+        <input id="picCode" class="input" type="text" placeholder="请输入图形验证码" onfocus="inputOnfoucs()" onblur="inputOnBlur()">
         <div id="checkCode" class="btn" onclick="createCode()">图形验证</div>
       </div>
       <div class="block">
         <img class="img" src="../images/验证码拷贝@2x.png" />
-        <input id="numCode" class="input" type="text" placeholder="请输入验证码">
+        <input id="numCode" class="input" type="text" placeholder="请输入验证码" onfocus="inputOnfoucs()" onblur="inputOnBlur()">
         <div id="getCodeBtn" class="btn" onclick="getCode()">获取验证码</div>
       </div>
       <div class="block">
         <img class="img" src="../images/密码@2x.png" />
-        <input id="password" class="input" type="password" placeholder="请输入密码（6-16位数字或字母）">
+        <input id="password" class="input" type="password" placeholder="请输入密码（6-16位数字或字母）" onfocus="inputOnfoucs()" onblur="inputOnBlur()">
       </div>
       <div class="block">
-        <input class="button" type="button" value="立即申请" onclick="signIn()">
+        <input class="button" type="button" value="立即申请" onclick="signIn();">
       </div>
       <div class="block">
         <a class="a-login" onclick="goDownload()">已有账号点击登录>></a>

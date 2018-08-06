@@ -93,3 +93,10 @@ function createCode() {
   checkCode.classList.add("code");
   checkCode.innerText = code;
 }
+// 输入框获得焦点时，手机键盘弹出事件
+function inputOnfoucs() {
+  form.classList.add('inputOnfoucs');
+}
+function inputOnBlur() {
+  form.classList.remove('inputOnfoucs');
+}
