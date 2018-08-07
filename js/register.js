@@ -2,6 +2,7 @@
 var phoneNumberReg = /^[1]{1}[3|5|7|8]{1}\d{9}$/;
 var passwordReg = /^[a-zA-Z0-9]{6,16}$/;
 var phoneNumber = document.getElementById('phoneNumber');
+var register = document.getElementById('register');
 var form = document.getElementById('form');
 var success = document.getElementById('success');
 var message = document.getElementById('message');
@@ -95,8 +96,8 @@ function createCode() {
 }
 // 输入框获得焦点时，手机键盘弹出事件
 function inputOnfoucs() {
-  form.classList.add('inputOnfoucs');
+  register.classList.add('inputOnfoucs');
 }
 function inputOnBlur() {
-  form.classList.remove('inputOnfoucs');
+  register.classList.remove('inputOnfoucs');
 }
